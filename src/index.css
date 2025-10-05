@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&display=swap');
+.font-cinzel { font-family: "Cinzel", ui-serif, Georgia, "Times New Roman", serif; }
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Marcellus+SC&display=swap');
+
+/* Capitales de inscripción romana */
+.font-inscrip {
+  font-family: "Marcellus", "Marcellus SC", serif;
+  font-variant-ligatures: none;
+}
