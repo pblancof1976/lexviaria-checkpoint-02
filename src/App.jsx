@@ -99,7 +99,7 @@ export default function App() {
         id="inicio"
         className="relative isolate min-h-[70vh] flex items-center"
         style={{
-          backgroundImage: "url('/hero.png')",
+          backgroundImage: `url(${BASE}assets/calle.png)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundColor: "#111827"
