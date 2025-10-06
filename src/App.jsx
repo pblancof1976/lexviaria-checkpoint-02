@@ -30,27 +30,28 @@ export default function App() {
             />
           </a>
 
-          
-          {/* Instagram */}
+         {/* Instagram */}
           <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
-            <svg width="28" height="28" viewBox="0 0 24 24">
-              <defs>
-                <linearGradient id="ig" x1="0" y1="0" x2="1" y2="1">
-                  <stop offset="0%" stopColor="#F58529"/><stop offset="50%" stopColor="#DD2A7B"/><stop offset="100%" stopColor="#8134AF"/>
-                </linearGradient>
-              </defs>
-              <rect x="2" y="2" width="20" height="20" rx="5" fill="url(#ig)"/>
-              <circle cx="12" cy="12" r="4.2" fill="none" stroke="#FFFFFF" strokeWidth="2"/>
-              <circle cx="16.8" cy="7.2" r="1.2" fill="#FFFFFF"/>
-            </svg>
+            <img
+              src={import.meta.env.BASE_URL + 'assets/instagram.png'}
+              alt="Instagram"
+              className="w-8 h-8 inline-block rounded-md"
+              loading="lazy"
+              decoding="async"
+            />
           </a>
+
           {/* Facebook */}
           <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
-            <svg width="28" height="28" viewBox="0 0 24 24">
-              <rect x="2" y="2" width="20" height="20" rx="5" fill="#1877F2"/>
-              <path fill="#FFFFFF" d="M13.5 9.5V8.1c0-.7.5-1.1 1.3-1.1h1.2V4.9h-2c-2.1 0-3.5 1.2-3.5 3.3v1.3H9v2.3h1.5V19h2.5v-5.2h2l.3-2.3h-2.3Z"/>
-            </svg>
+            <img
+              src={import.meta.env.BASE_URL + 'assets/facebook.png'}
+              alt="Facebook"
+              className="w-8 h-8 inline-block"
+              loading="lazy"
+              decoding="async"
+            />
           </a>
+          
         </div>
       </div>
 
