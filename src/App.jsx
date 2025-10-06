@@ -9,44 +9,68 @@ export default function App() {
       {/* Topbar (iconos a la derecha) */}
       <div className="bg-neutral-900">
         <div className="mx-auto max-w-6xl px-4 py-6 flex items-center justify-end gap-4">
+
+              {/* Topbar (iconos a la derecha) */}
+      <div className="bg-neutral-900">
+        <div className="mx-auto max-w-6xl px-4 py-6 flex items-center justify-end gap-4">
           {/* YouTube */}
           <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube">
-            <svg width="28" height="28" viewBox="0 0 24 24">
-              <path fill="#FF0000" d="M23 12s0-3.5-.45-5.2c-.25-.9-.98-1.6-1.88-1.86C18.9 4.5 12 4.5 12 4.5s-6.9 0-8.67.44c-.9.25-1.63.96-1.88 1.86C.99 8.5 1 12 1 12s0 3.5.45 5.2c.25.9.98 1.6 1.88 1.86C5.1 19.5 12 19.5 12 19.5s6.9 0 8.67-.44c.9-.25 1.63-.96 1.88-1.86C23 15.5 23 12 23 12Z"/>
-              <path fill="#FFFFFF" d="M10 8.75v6.5l6-3.25-6-3.25z"/>
-            </svg>
+            <img
+              src={`${BASE}assets/youtube.png`}
+              alt="YouTube"
+              width="28"
+              height="28"
+              className="block w-7 h-7"
+              loading="lazy"
+              decoding="async"
+            />
           </a>
+
           {/* LinkedIn */}
           <a href="https://www.linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">
-            <svg width="28" height="28" viewBox="0 0 24 24">
-              <rect x="2" y="2" width="20" height="20" rx="3" fill="#0A66C2"/>
-              <circle cx="7" cy="8" r="1.7" fill="#FFFFFF"/>
-              <rect x="5.5" y="10" width="3" height="7.5" fill="#FFFFFF"/>
-              <path fill="#FFFFFF" d="M12 10h2.9v1.3h.1c.5-.9 1.6-1.6 3-1.6 3 0 3.9 2 3.9 4.7V18h-3v-2.9c0-1.4 0-3.1-1.9-3.1s-2.2 1.2-2.2 3V18H12V10z"/>
-            </svg>
+            <img
+              src={`${BASE}assets/linkedin.png`}
+              alt="LinkedIn"
+              width="28"
+              height="28"
+              className="block w-7 h-7"
+              loading="lazy"
+              decoding="async"
+            />
           </a>
+
           {/* Instagram */}
           <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
-            <svg width="28" height="28" viewBox="0 0 24 24">
-              <defs>
-                <linearGradient id="ig" x1="0" y1="0" x2="1" y2="1">
-                  <stop offset="0%" stopColor="#F58529"/><stop offset="50%" stopColor="#DD2A7B"/><stop offset="100%" stopColor="#8134AF"/>
-                </linearGradient>
-              </defs>
-              <rect x="2" y="2" width="20" height="20" rx="5" fill="url(#ig)"/>
-              <circle cx="12" cy="12" r="4.2" fill="none" stroke="#FFFFFF" strokeWidth="2"/>
-              <circle cx="16.8" cy="7.2" r="1.2" fill="#FFFFFF"/>
-            </svg>
+            <img
+              src={`${BASE}assets/instagram.png`}
+              alt="Instagram"
+              width="28"
+              height="28"
+              className="block w-7 h-7"
+              loading="lazy"
+              decoding="async"
+            />
           </a>
+
           {/* Facebook */}
           <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
-            <svg width="28" height="28" viewBox="0 0 24 24">
-              <rect x="2" y="2" width="20" height="20" rx="5" fill="#1877F2"/>
-              <path fill="#FFFFFF" d="M13.5 9.5V8.1c0-.7.5-1.1 1.3-1.1h1.2V4.9h-2c-2.1 0-3.5 1.2-3.5 3.3v1.3H9v2.3h1.5V19h2.5v-5.2h2l.3-2.3h-2.3Z"/>
-            </svg>
+            <img
+              src={`${BASE}assets/facebook.png`}
+              alt="Facebook"
+              width="28"
+              height="28"
+              className="block w-7 h-7"
+              loading="lazy"
+              decoding="async"
+            />
           </a>
         </div>
       </div>
+  
+
+
+
+      
 
       {/* Header / Nav */}
       <header className="bg-white sticky top-0 z-40 border-b">
