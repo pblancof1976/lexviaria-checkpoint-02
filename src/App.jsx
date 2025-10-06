@@ -2,6 +2,8 @@
 import "./index.css";
 
 export default function App() {
+  const BASE = import.meta.env.BASE_URL;
+
   return (
     <div className="min-h-screen bg-white text-gray-900">
       {/* Topbar (iconos a la derecha) */}
