@@ -8,26 +8,29 @@ export default function App() {
       <div className="bg-neutral-900">
         <div className="mx-auto max-w-6xl px-4 py-6 flex items-center justify-end gap-4">
           
-{/* YouTube */}
-<a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube">
-  <img
-    src={import.meta.env.BASE_URL + 'assets/youtube.png'}
-    alt="YouTube"
-    className="w-8 h-8 inline-block"
-    loading="lazy"
-    decoding="async"
-  />
-</a>
+      {/* YouTube */}
+      <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube">
+      <img
+        src={import.meta.env.BASE_URL + 'assets/youtube.png'}
+        alt="YouTube"
+        className="w-8 h-8 inline-block"
+        loading="lazy"
+        decoding="async"
+          />
+        </a>
 
           {/* LinkedIn */}
           <a href="https://www.linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">
-            <svg width="28" height="28" viewBox="0 0 24 24">
-              <rect x="2" y="2" width="20" height="20" rx="3" fill="#0A66C2"/>
-              <circle cx="7" cy="8" r="1.7" fill="#FFFFFF"/>
-              <rect x="5.5" y="10" width="3" height="7.5" fill="#FFFFFF"/>
-              <path fill="#FFFFFF" d="M12 10h2.9v1.3h.1c.5-.9 1.6-1.6 3-1.6 3 0 3.9 2 3.9 4.7V18h-3v-2.9c0-1.4 0-3.1-1.9-3.1s-2.2 1.2-2.2 3V18H12V10z"/>
-            </svg>
+            <img
+              src={import.meta.env.BASE_URL + 'assets/linkeding.png'}  // ← así se llama tu archivo
+              alt="LinkedIn"
+              className="w-8 h-8 inline-block"
+              loading="lazy"
+              decoding="async"
+            />
           </a>
+
+          
           {/* Instagram */}
           <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
             <svg width="28" height="28" viewBox="0 0 24 24">
