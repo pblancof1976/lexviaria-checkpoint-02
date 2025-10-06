@@ -7,13 +7,18 @@ export default function App() {
       {/* Topbar (iconos a la derecha) */}
       <div className="bg-neutral-900">
         <div className="mx-auto max-w-6xl px-4 py-6 flex items-center justify-end gap-4">
-          {/* YouTube */}
-          <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube">
-            <svg width="28" height="28" viewBox="0 0 24 24">
-              <path fill="#FF0000" d="M23 12s0-3.5-.45-5.2c-.25-.9-.98-1.6-1.88-1.86C18.9 4.5 12 4.5 12 4.5s-6.9 0-8.67.44c-.9.25-1.63.96-1.88 1.86C.99 8.5 1 12 1 12s0 3.5.45 5.2c.25.9.98 1.6 1.88 1.86C5.1 19.5 12 19.5 12 19.5s6.9 0 8.67-.44c.9-.25 1.63-.96 1.88-1.86C23 15.5 23 12 23 12Z"/>
-              <path fill="#FFFFFF" d="M10 8.75v6.5l6-3.25-6-3.25z"/>
-            </svg>
-          </a>
+          
+{/* YouTube */}
+<a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube">
+  <img
+    src={import.meta.env.BASE_URL + 'assets/youtube.png'}
+    alt="YouTube"
+    className="w-8 h-8 inline-block"
+    loading="lazy"
+    decoding="async"
+  />
+</a>
+
           {/* LinkedIn */}
           <a href="https://www.linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">
             <svg width="28" height="28" viewBox="0 0 24 24">
